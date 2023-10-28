@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{60306851-D34A-4EF4-AC39-F70DCEB5F4D0}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Purcel_Tiberiu_Lab2/Pages/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="Purcel_Tiberiu_Lab2/Pages/Books/Create.cshtml" Line="1" Column="1" />
+      <File FileName="Purcel_Tiberiu_Lab2/Pages/Shared/_Layout.cshtml" Line="52" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Purcel_Tiberiu_Lab2" expanded="True">
+            <Node name="Purcel_Tiberiu_Lab2">
+              <Node name="Data" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Books" expanded="True">
+                  <Node name="Create.cshtml" expanded="True" />
+                  <Node name="Delete.cshtml" expanded="True" />
+                  <Node name="Details.cshtml" expanded="True" />
+                  <Node name="Edit.cshtml" expanded="True" />
+                  <Node name="Index.cshtml" expanded="True" />
+                </Node>
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+                <Node name="Index.cshtml" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="wwwroot" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Purcel__Tiberiu__Lab2 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

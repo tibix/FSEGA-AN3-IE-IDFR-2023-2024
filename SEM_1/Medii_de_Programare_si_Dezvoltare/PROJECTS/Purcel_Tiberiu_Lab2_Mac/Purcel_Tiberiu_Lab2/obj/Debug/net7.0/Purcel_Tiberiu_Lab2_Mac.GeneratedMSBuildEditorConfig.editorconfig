@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Purcel_Tiberiu_Lab2_Mac
+build_property.RootNamespace = Purcel_Tiberiu_Lab2_Mac
+build_property.ProjectDir = /Users/teebee/PROJECTS/Purcel_Tiberiu_Lab2_Mac/Purcel_Tiberiu_Lab2/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/teebee/PROJECTS/Purcel_Tiberiu_Lab2_Mac/Purcel_Tiberiu_Lab2
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/teebee/PROJECTS/Purcel_Tiberiu_Lab2_Mac/Purcel_Tiberiu_Lab2/Pages/Authors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXV0aG9ycy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/teebee/PROJECTS/Purcel_Tiberiu_Lab2_Mac/Purcel_Tiberiu_Lab2/Pages/Authors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXV0aG9ycy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/teebee/PROJECTS/Purcel_Tiberiu_Lab2_Mac/Purcel_Tiberiu_Lab2/Pages/Authors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXV0aG9ycy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/teebee/PROJECTS/Purcel_Tiberiu_Lab2_Mac/Purcel_Tiberiu_Lab2/Pages/Authors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXV0aG9ycy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/teebee/PROJECTS/Purcel_Tiberiu_Lab2_Mac/Purcel_Tiberiu_Lab2/Pages/Authors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXV0aG9ycy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/teebee/PROJECTS/Purcel_Tiberiu_Lab2_Mac/Purcel_Tiberiu_Lab2/Pages/Books/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQm9va3MvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/teebee/PROJECTS/Purcel_Tiberiu_Lab2_Mac/Purcel_Tiberiu_Lab2/Pages/Books/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQm9va3MvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/teebee/PROJECTS/Purcel_Tiberiu_Lab2_Mac/Purcel_Tiberiu_Lab2/Pages/Books/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQm9va3MvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/teebee/PROJECTS/Purcel_Tiberiu_Lab2_Mac/Purcel_Tiberiu_Lab2/Pages/Books/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQm9va3MvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/teebee/PROJECTS/Purcel_Tiberiu_Lab2_Mac/Purcel_Tiberiu_Lab2/Pages/Books/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQm9va3MvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/teebee/PROJECTS/Purcel_Tiberiu_Lab2_Mac/Purcel_Tiberiu_Lab2/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/teebee/PROJECTS/Purcel_Tiberiu_Lab2_Mac/Purcel_Tiberiu_Lab2/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/teebee/PROJECTS/Purcel_Tiberiu_Lab2_Mac/Purcel_Tiberiu_Lab2/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/teebee/PROJECTS/Purcel_Tiberiu_Lab2_Mac/Purcel_Tiberiu_Lab2/Pages/Publishers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHVibGlzaGVycy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/teebee/PROJECTS/Purcel_Tiberiu_Lab2_Mac/Purcel_Tiberiu_Lab2/Pages/Publishers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHVibGlzaGVycy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/teebee/PROJECTS/Purcel_Tiberiu_Lab2_Mac/Purcel_Tiberiu_Lab2/Pages/Publishers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHVibGlzaGVycy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/teebee/PROJECTS/Purcel_Tiberiu_Lab2_Mac/Purcel_Tiberiu_Lab2/Pages/Publishers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHVibGlzaGVycy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/teebee/PROJECTS/Purcel_Tiberiu_Lab2_Mac/Purcel_Tiberiu_Lab2/Pages/Publishers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHVibGlzaGVycy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/teebee/PROJECTS/Purcel_Tiberiu_Lab2_Mac/Purcel_Tiberiu_Lab2/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/teebee/PROJECTS/Purcel_Tiberiu_Lab2_Mac/Purcel_Tiberiu_Lab2/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/teebee/PROJECTS/Purcel_Tiberiu_Lab2_Mac/Purcel_Tiberiu_Lab2/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/teebee/PROJECTS/Purcel_Tiberiu_Lab2_Mac/Purcel_Tiberiu_Lab2/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ds2lxbgoqx

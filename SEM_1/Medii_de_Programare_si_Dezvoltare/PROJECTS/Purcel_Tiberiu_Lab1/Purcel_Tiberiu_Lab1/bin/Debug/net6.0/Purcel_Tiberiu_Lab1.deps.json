@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Purcel_Tiberiu_Lab1/1.0.0": {
+        "runtime": {
+          "Purcel_Tiberiu_Lab1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Purcel_Tiberiu_Lab1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

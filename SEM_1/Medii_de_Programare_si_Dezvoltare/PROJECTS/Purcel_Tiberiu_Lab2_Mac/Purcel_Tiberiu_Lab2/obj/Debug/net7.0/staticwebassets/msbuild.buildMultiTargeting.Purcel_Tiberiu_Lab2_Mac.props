@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Purcel_Tiberiu_Lab2_Mac.props" />
+</Project>

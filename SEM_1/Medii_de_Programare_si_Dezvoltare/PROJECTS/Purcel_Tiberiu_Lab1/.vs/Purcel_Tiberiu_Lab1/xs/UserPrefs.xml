@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{41861BD0-4E31-4C09-AF3B-8108CDE67F26}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Purcel__Tiberiu__Lab1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Purcel_Tiberiu_Lab1/Pages/Index.cshtml">
+    <Files>
+      <File FileName="Purcel_Tiberiu_Lab1/Pages/Index.cshtml" Line="8" Column="62" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Purcel_Tiberiu_Lab1" expanded="True">
+            <Node name="Purcel_Tiberiu_Lab1" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="Index.cshtml" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

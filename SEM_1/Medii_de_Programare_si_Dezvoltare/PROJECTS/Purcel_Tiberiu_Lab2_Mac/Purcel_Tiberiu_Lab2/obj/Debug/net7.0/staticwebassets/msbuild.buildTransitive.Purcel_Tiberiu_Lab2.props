@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/Purcel_Tiberiu_Lab2.props" />
+</Project>
