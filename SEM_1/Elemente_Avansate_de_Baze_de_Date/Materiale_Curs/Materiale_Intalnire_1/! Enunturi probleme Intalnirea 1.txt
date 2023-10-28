@@ -1,0 +1,43 @@
+Accesati link-ul grupei cu care participati la intalnire (conform orarului)
+Grupa 1: https://docs.google.com/document/d/1ufnpgIieyAwZvwxImIUx5e-X9aIpnAKwRu4Vcxk33O8/edit?usp=sharing
+Grupa 2: https://docs.google.com/document/d/1x93ayr8Pha2gqkFa7x_O5SiC_zWCFYVy2HUQ7pSDeJ0/edit?usp=sharing
+Grupa 3: https://docs.google.com/document/d/1Hsgr_tkNBoAna6IGgXYCkt1AouQ-ePFesp0qTZxqLrk/edit?usp=sharing
+Grupa 4: https://docs.google.com/document/d/1EHYf0Mcc7zOVIq5e1v0E85WVukx4JxkaXAiF8Q1rnSw/edit?usp=sharing
+Grupa 5: https://docs.google.com/document/d/1rfSi_pBVyPVWlJF7Ez5fo1Sv5YYe2z3pPxcOYkCDg60/edit?usp=sharing
+
+Blocuri anonime în PL/SQL. Gestiunea variabilelor. Blocuri imbricate
+
+Să se realizeze şi testeze următoarele blocuri anonime în PL/SQL:
+1.	Afişaţi-vă numele complet;
+2.	Afişaţi data care va fi peste exact 4 luni:
+a.	Utilizaţi doar o constantă;
+b.	Folosiţi o variabilă iniţializată la declarare
+c.	Folosiţi o variabilă calculată în secţiunea de execuţie
+d.	Utilizaţi o interogare
+3.	Sa se defineasca variabile si constante de diferite tipuri, cu diferite optiuni (NOT NULL, DEFAULT), apoi sa se afiseze valoarea lor in cadrul sectiunii de executie. Se vor afisa propozitii inteligibile
+4.	Faceţi o copie a tabelei EMPLOYEES sub numele ANGAJATI (în SQL). Analizaţi continutul tabelei, apoi afişaţi numele, prenumele si salariul lunar al Managerului general (în PL/SQL).
+5.	Definiţi variabile/constante de mai multe tipuri de dată. Folosiţi câte o funcţie pentru fiecare variabilă şi afişaţi rezultatul. Mai intai utilizaţi funcţiile în cadrul unor interogări SQL, apoi fără utilizarea clauzei SELECT în cadrul blocului de execuţie
+6.	Realizaţi 3 blocuri imbricate – superior, intermediar şi inferior – iar în cadrul fiecăruia utilizaţi câte o variabilă. Testaţi vizibilitatea şi domeniul acestor variabile.
+7.	Realizaţi 3 blocuri imbricate, iar în cadrul fiecăruia utilizaţi variabile cu acelaşi nume, dar valori diferite. Afişaţi în cadrul fiecărui bloc valoarea tuturor variabilelor, calificându-le prin numele blocului doar pe acelea care solicit acest lucru. Pentru a şti din ce bloc s-a făcut afişarea, să se precizeze numele blocului. Ex. “Valori din blocul superior”
+
+Instrucţiuni SQL în blocuri PL/SQL
+Să se realizeze blocuri PL/SQL anonime cu următoarele funcţionalităţi:
+1.	“Angajaţi-vă” astăzi în cadrul tabelei ANGAJAŢI ca reprezentant de vânzări, cu salariul de 30.000$. Completaţi toate atributele obligatorii şi asiguraţi unicitatea cheii primare
+2.	Accidental, introduceţi din nou datele Dv., dar cu un alt ID
+3.	Ştergeţi cea de-a doua înregistrare adăugată şi creşteţi cu 15% salariul pentru înregistrarea rămasă
+4.	Testaţi instrucţiunea MERGE pentru a actualiza tabela EMPLOYEES cu noul angajat introdus
+5.	Modificaţi tabela ANGAJATI prin adaugarea unui nou atribut Monthly_Wage Number(5)
+6.	Afişaţi numele, prenumele şi salariul Dv., informaţiile fiind extrase din tabela ANGAJATI
+7.	Extrageţi aceleaşi informaţii pentru toţi reprezentanţii de vânzări
+8.	Actualizaţi cu +10% salariile celor din administraţie şi afişaţi numărul angajaţilor care au fost bonificaţi
+9.	Testaţi instrucţiunile TCL (COMMIT, ROLLBACK, SAVEPOINT) pe tabela ANGAJATI.
+Structuri de programare în PL/SQL
+
+Creaţi blocuri anonime pentru rezolvarea următoarelor exerciţii:
+1.	Testaţi dacă un număr – memorat într-o variabilă – este par;
+2.	Se da transcrierea în litere pentru numerele de la 1 la 9. Avem o variabilă care poate conţine un număr întreg între 11 şi 20, reprezentând sume în lei. Afişaţi suma în lei în litere (ca la bancă/poştă), găsind câteva reguli de compunere ale numeralelor şi folosind transcrierile cifrelor de la 1 la 9. Se va rezolva cu structuri IF;
+3.	Rezolvaţi aceeaşi problemă cu o structură CASE;
+4.	Apoi cu o expresie CASE;
+5.	O persoană s-a născut între anii 1950-2000. În funcţie de anul naşterii să se afişeze mesaje precum: „Domnul X s-a născut în anii ’80.” Testaţi funcţionalitatea secvenţelor ELSIF, în cazul în care le schimbaţi ordinea;
+6.	Calculaţi factorialul unui număr memorat într-o variabilă. Se vor folosi toate variantele de structuri iterative cunoscute;
+7.	Să se introducă în cadrul tabelei Angajati 4 înregistrări: Id-urile să fie următoarele 4 numere luate secvenţial, numele şi prenumele vor fi generice „Nume”/”Prenume” concatenat cu id-ul. Toţi au fost angajaţi acum o lună ca reprezentanţi de vânzări cu salariul minim al acestei categorii, căruia i se adaugă un spor generat aleatoriu între 200 şi 500$.
