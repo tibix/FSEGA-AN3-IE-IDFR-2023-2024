@@ -1,0 +1,45 @@
+Accesati link-ul grupei cu care participati la intalnire (conform orarului)
+Grupa 1: https://docs.google.com/document/d/1ufnpgIieyAwZvwxImIUx5e-X9aIpnAKwRu4Vcxk33O8/edit?usp=sharing
+Grupa 2: https://docs.google.com/document/d/1x93ayr8Pha2gqkFa7x_O5SiC_zWCFYVy2HUQ7pSDeJ0/edit?usp=sharing
+Grupa 3: https://docs.google.com/document/d/1Hsgr_tkNBoAna6IGgXYCkt1AouQ-ePFesp0qTZxqLrk/edit?usp=sharing
+Grupa 4: https://docs.google.com/document/d/1EHYf0Mcc7zOVIq5e1v0E85WVukx4JxkaXAiF8Q1rnSw/edit?usp=sharing
+Grupa 5: https://docs.google.com/document/d/1rfSi_pBVyPVWlJF7Ez5fo1Sv5YYe2z3pPxcOYkCDg60/edit?usp=sharing
+Cursori, inregistrari, exceptii
+
+Cursori expliciti
+•	Atribute cursor
+•	Cursori cu parametru
+•	Cursori de tip FOR
+•	Cursori multipli
+Realizati blocuri anonime cu urmatoarele functionalitati
+1.	Afisati salariul mediu al reprezentantilor de vânzari din cadrul tabelei ANGAJATI
+2.	Afisati numele, prenumele si salariul reprezentantilor de vânzari. Se vor utiliza variabile scalare pentru fiecare element ce trebuie afisat din cadrul fiecarei linii returnate. La finalul listei se va afisa si salariul lor mediu
+3.	Pe exemplul anterior, testati toate atributele cursorului – %ISOPEN, %NOTFOUND, %FOUND, %ROWCOUNT –  în etape diferite din ciclul de viata al cursorului
+4.	Rezolvati problema de la punctul anterior prin utilizarea variabilelor tip înregistrare
+5.	Simplificati problema folosind cursori de tip FOR
+6.	Dar daca nu utilizati în mod explicit cursori cu nume, ci folositi o subinterogare?
+7.	Se va rezolva aceeasi problema ca la punctul 2, însa denumirea functiei (JOB_ID) va fi transmisa ca parametru. Testati functionalitatea pentru 2-3 functii
+8.	Modificati exemplul anterior prin adaugarea unui nou parametru. Cel de-al doilea (p_vechime) se refera la vechimea angajatului la actualul loc de munca. Astfel, va trebui sa afisati angajatii ce ocupa o anumita functie si au vechime de cel mult valoarea lui p_vechime
+9.	Cu ajutorul unui cursor cu parametri multipli se va parcurge tabela pentru fiecare functie, iar în cadrul acesteia angajatii vor fi afisati alfabetic dupa nume, apoi prenume. Începutul unei noi functii va fi marcat vizual corespunzator, la finalul fiecareia aparând informatii statistice precum salariul mediu lunarsi fondul de salarii lunar al fiecarei functii. Functiile vor fi trecute în ordine alfabetica
+10.	Realizati un cursor care sa permita scadere cu 5% a salariului vânzatorilor, inclusiv a sefului lor. Rezolvarea trebuie sa tina cont ca e posibil sa interactioneze operatiunile mai multor utilizatori asupra aceluiasi set de date. În caz de concurenta se va astepta 5 secunde.
+Tipuri definite de utilizator
+
+Realizati blocuri anonime diferite pentru rezolvarea urmatoarelor cerinte:
+1.	Utilizând o variabila compusa v_angajat cu structura identica cu o înregistrare din cadrul tabelei angajati, extrageti si afisati din tabela amintita urmatoarele date legate de Dv. (identificator, nume, prenume, functie, salariu si data angajarii). Nota: Într-un laborator anterior aveati ca sarcina „angajarea” Dv.;
+2.	Cu o astfel de variabila, initializati datele specificate la exercitiul anterior cu valori corespunzatoare unei persoane din familia Dv. Angajati apoi si aceasta persoana, referind variabila sau elemente ale acesteia în locul constantelor folosite la initializare;
+3.	Definiti un tip propriu, care sa aiba denumirea atributelor identica cu a atributelor din tabela Angajati, dar tradusa în limba româna. Folositi variabila pentru a extrage si afisa informatiile legate de Dv;
+4.	La fel ca la exercitiul anterior, dar se vor extrage informatiile aferente mai multor angajati (de exemplu a Dv. si a rudeniei angajate);
+5.	Redefiniti tipul de la problema 3, prin împartirea atributelor în doua grupe: atribute generale si atribute specifice statutului de angajat. Variabila ce va contine toate informatiile legate de angajat va avea datele specifice în atribute distincte, în timp ce datele generale vor fi cuprinse într-o variabila de un tip compus;
+6.	Definiti si utilizati o variabila compusa ce va avea o parte din atribute calculate – numele împreuna cu prenumele si salariul va fi cel lunar). Utilizati aceasta variabila pentru returnarea rezultatului interogarii: „Afisati-va identificatorul, numele si prenumele, functia si salariul lunar”.
+
+Tratarea exceptiilor
+ 
+Sa se realizeze blocuri PL/SQL anonime, pentru rezolvarea urmatoarelor cerinte:
+1.      Afisati numele, prenumele si salariul pentru o anumita categorie si returnati aceste informatii în cadrul unor variabile. Testati comportamentul executiei în cazul în care afisam informatii legate despre presedintele companiei. Apoi despre reprezentantii de vânzari si în final despre o categorie care nu exista sau a fost scrisa eronat. Remediati codul pentru a nu fi întrerupta executia în niciuna dintre aceste situatii;
+2.      Dar daca criteriul interogarii se bazeaza pe o variabila incompatibila ca tip?
+3.      Pentru tabela Angajati definiti constrângerea de cheie primara (în cazul în care aveti înregistrari neconforme, remediati mai întâi problema de unicitate). Adaugati o alta constrângere care solicita completarea unei adrese de email pentru fiecare angajat (faceti si aici eventualele corectii premergatoare). Tratati apoi ambele tipuri de erori care ar putea sa pericliteze integritatea tabelei Angajati;
+4.      Definiti o eroare care sa va atentioneze atunci când încercati sa introduceti/actualizati un salariu cu o valoare mai mare de 30.000$. În cadrul tabelei nu se vor configura constrângeri de tip CHECK pentru astfel de conditii. 
+
+
+
+
