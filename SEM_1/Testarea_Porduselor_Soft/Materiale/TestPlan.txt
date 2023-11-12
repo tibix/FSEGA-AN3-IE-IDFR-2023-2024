@@ -1,0 +1,57 @@
+Test Plan
+
+Test Plan-ul este un document care descrie obiectivele, scopul, abordarea si timpul necesar testarii. Procesul pregatirii unui test plan este un mod util de stabilire a efortului necesar pentru validarea acceptantei unui produs software. Acest document va ajuta oamenii din afara grupul de testare, sa inteleaga "DE CE" si "CUM" a fost validat proiectul.
+
+Continutul unui plan de testare ar trebui sa includa urmatoarele elemente:
+
+• Titulul Proiectului
+• Identificarea documentului, inclusiv numarul de versiune
+• Un istoric al documentului: autori, date, aprobari
+• Cuprins
+• Scopul documentului
+• Obiectivele testarii
+• O descriere generala a proiectului (tipul de business caruia i se adreseaza, ce se intentioneaza prin utilizarea acetui produs)
+• O lista de documente importante ce au stat la baza planului de testare: requirements, documente de design, alte planuri de testare
+• Standarde ce vor fi utilizate
+• Traceability requirements (o matrice prin care se va urmari daca toate cerintele au fost implementate/testate)
+• O lista a termenilor specifici proiectului, inclusiv prescurtarea utilizata (ex TP = test plan)
+• Lista persoanelor implicate in testare si datele lor de contact
+• Dependinte
+• O analiza de risc a proiectului (ex: timp insuficient, resurse insuficiente, requirements lipsa, etc)
+• Prioritati de testare
+• Limitari in testare
+• Test outline - o lista detaliata a modului de abordare a testarii: tipuri de testare, functionalitate, proces, sistem etc a
+• Mediul de testare: hardware, sisteme de operare, alte softuri necesare, etc
+• Test environment setup si probleme de configurare
+• Test data setup requirements
+• Database setup requirements
+• Managementul erorilor: modul de identificare si raportare a acestora(tool-uri folosite ptr bug tracking)
+• Test automation - justificarea utilizarii testarii automate
+• Tool-uri de testare folosite
+• Test script/test code , proces de mentenanta si controlul versiunilor
+• Problem tracking and resolution - tool-uri si procese utilizate
+• Project test metrics
+• Reporting requirements and testing deliverables
+• Software entrance and exit criteria
+• Test suspension and restart criteria
+• Necesitati de training pentru personalul implicat
+• Locatia unde se va desfasura testarea
+• Appendix - dictionar, acronime, etc.
+
+
+In cazul unui Plan de Testare trebuie sa te asiguri ca toate partile implicate inteleg ce va fi testat si cum va fi testat.
+
+Asa ca trebuie sa ne uitam la elementele care fac parte dintr-o strategie de testare:
+
+    Ce tip de testare vom avea? Vrem sa testam performanta sistemului, usability, configurarea acestuia etc.? Vom avea testare statica precum peer review? Vom aloca timp pentru testare exploratorie si daca da, cat de mult?
+    Este util sa listam toate tipurile de activitati de testare care vor fi incluse in calendarul de testare. Spre exemplu, test design sau pregatirea mediului de testare . Pentru ce ar trebui sa facem asta? Pentru a ne asigura ca nu uitam nimic atunci cand dezvoltam planul de testare.
+    Care va fi test basisul?
+    Ce tehnici vor fi folosite pentru crearea test cases?
+    Cat de detaliate ar trebui sa fie aceste test cases? Cele care sunt prea detaliate sunt greu de actualizat. Cele care nu sunt indeajuns de detaliate pot sa cauzeze probleme atunci cand se incearca reproducerea defectelor. Avem astfel nevoie de un echilibru si este de dorit ca aceste test cases sa fie relativ uniforme. Asigura-te ca descrii gradul de detaliu al acestor test cases. Este dificil dar macar poti sa oferi cateva exemple care sa arate nivelul de detaliu pe care il doresti iar acest lucru v-a ajuta test designerii care trebuie sa le dezvolte.
+    Este util sa mentionezi si criteriile pentru evaluarea impactului defectelor si prioritizarea acestora. Evaluarea severitatii defectelor este de multe ori un subiect controversat, daca nu exista un set de criterii comun. Este bine sa formalizam modul in care evaluam importanta defectelor si prioritatea lor atunci cand vine vorba de eforturile de corectare. Iar aceste criterii trebuie sa se gaseaca in strategia de testare.
+    Gradul de specificitate al test objects v-a afecta procesul de testare? Poate ai nevoie de un mediu de testare special.
+    Care sunt criteriile pentru inceperea si incheierea testarii? Criteriile pentru inceperea procesului de testare includ mediul de care este nevoie si incheierea cu succes a activitatilor anterioare de testare (spre exemplu, un Smoke testing de succes este o conditie esentiala pentru inceperea testarii sistemului). Criteriile pentru incheierea testului depinde de elementele de evaluare pe care le selectezi – procentaj al completarii testelor, numarul de defecte necorectate de diferite severitati si alti indicatori.
+    Ce tip de documente ai in plan sa dezvolti? Este important sa intelegi daca aceasta documentatie este un instrument pentru propriile tale nevoi sau ai in vedere sa livrezi aceste documente o data cu produsul software.
+
+
+O strategie de testare eficienta este un element critic care sta la baza intregului proces de testare. Prin dezvoltarea acestui document si implicarea tuturor partilor interesate (manageri, clienti, programtori etc.) inca din primele tape ale procesului putem sa evitam nenumarate provocari care altfel ar aparea pe parcurs.
