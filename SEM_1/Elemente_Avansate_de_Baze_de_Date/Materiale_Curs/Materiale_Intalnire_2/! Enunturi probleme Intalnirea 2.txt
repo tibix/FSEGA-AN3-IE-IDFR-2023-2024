@@ -13,7 +13,45 @@ Cursori expliciti
 •	Cursori multipli
 Realizati blocuri anonime cu urmatoarele functionalitati
 1.	Afisati salariul mediu al reprezentantilor de vânzari din cadrul tabelei ANGAJATI
+SQL: SELECT AVG(salary) FROM angajati WHERE job_id='SA_REP';
+PL/SQL:
+DECALRE
+    v_sal_med NUMBER(7,2);
+BEGIN
+    SELECT AVG(salary) INTO v_sal_med FROM angajati WHERE job_id = 'SA_REP';
+    DBMS_OUTPUT.PUT_LINE("Salariul mediu al reprezentantii de vanzari este  de " || v_sal_rep);
+END;
+
+DECALRE
+    v_sal_med NUMBER(7,2);
+    v_functie angajati.job_id%TYPE := 'SA_REP';
+BEGIN
+    SELECT AVG(salary) INTO v_sal_med FROM angajati WHERE job_id = v_functie;
+    DBMS_OUTPUT.PUT_LINE("Salariul mediu al angajatilor cu functie de  " || v_functie || " este  de " || v_sal_rep);
+END;
+
 2.	Afisati numele, prenumele si salariul reprezentantilor de vânzari. Se vor utiliza variabile scalare pentru fiecare element ce trebuie afisat din cadrul fiecarei linii returnate. La finalul listei se va afisa si salariul lor mediu
+DECLARE
+    v_nume angajati.last_name%TYPE;
+    v_prenume angajati.first_name%TYPE;
+    v_salariu angajati.salary%TYPE;
+    v_functie angajati.job_id%TYPE := 'SA_REP';
+    CURSOR c_ang IS SELECT first_name, last_name, salary INTO v_prenume, v_nume, v_salariu FROM angajati WHERE job_id = v_functie;
+BEGIN
+    OPEN c_ang;
+        LOOP
+            FETCH c_ang INTO v_prenume, v_nume, v_salariu
+            EXTI WHEN c_ang%NOTFOUND;
+            DBMS_OUTPUT.PUT_LINE(c_ang%ROWCOUNT || '. Anhajatul ' || v_nume || ' ' || v_prenume || ' are salariul de ' || v_salariu);
+        END LOOP;
+        CLOSE c_ang;
+    SELECT AVG(salary) INTO v_sal_med FROM angajati WHERE job_id = v_functie;
+    SELECT first_name, last_name, salary INTO v_prenume, v_nume, v_salary FROM angajati WHERE job_id = v_functie;
+    DBMS_OUTPUT.PUT_LINE('Angajatul ' || v_nume || ' ' || v_prenume || ' are salariul de: ' || v_salariu);
+    DBMS_OUTPUT.PUT_LINE("Salariul mediu al angajatilor cu functie de  " || v_functie || " este  de " || v_sal_rep);
+END
+
+
 3.	Pe exemplul anterior, testati toate atributele cursorului – %ISOPEN, %NOTFOUND, %FOUND, %ROWCOUNT –  în etape diferite din ciclul de viata al cursorului
 4.	Rezolvati problema de la punctul anterior prin utilizarea variabilelor tip înregistrare
 5.	Simplificati problema folosind cursori de tip FOR
