@@ -4,11 +4,11 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Show Table</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <?php
-function __autoload($class)
+function spl_autoload_register($class)
 {
     include_once($class . ".php");
 }
@@ -44,22 +44,23 @@ if (isset($_REQUEST['del_id'])) {
         foreach ($obj->showData("students") as $value) {
             extract($value);
             echo <<<show
-<tr class="success">
-    <td>$name</td>
-<td>$email</td>
-<td>$mobile</td>
-<td>$address</td>
-<td><button class="btn"><a href="update.php?id=$id">Update</a>
-</button>&nbsp;&nbsp;<button class="btn"><a
-href="show.php?del_id=$id">Delete</a></button></td>
-</tr>
+        <tr class="success">
+            <td>$name</td>
+            <td>$email</td>
+            <td>$mobile</td>
+            <td>$address</td>
+            <td>
+                <button class="btn"><a href="update.php?id=$id">Update</a></button>&nbsp;&nbsp
+                <button class="btn"><a href="show.php?del_id=$id">Delete</a></button>
+            </td>
+        </tr>
 show;
         }
         ?>
         <tr class="success">
             <th scope="col" colspan="5" align="right">
                 <div class="btn-group">
-                    <button class="btn"><a href="insert.php">Insert </a></button>
+                    <button class="btn"><a href="insert.php">Insert</a></button>
                 </div>
             </th>
         </tr>
