@@ -1,0 +1,5 @@
+- In Python sunt foarte importante indentarile.
+Secventele de cod de pe Google Drive au pierdut aceste formatari.
+Pentru acestea, va rog sa le preluati din documentele Word (ex. 1. Instalare si testare MongoDB&Python.docx) sau din PowerPoint (cursuri)
+- Daca nu aveati instalata o versiune mai veche de Python si instalati acum Python 3.x, sintaxa lui print difera, fiind tratata ca o functie, deci argumentele se trec intre paranteze
+- !!!Sa nu ignorati definirea de variabile de mediu pentru folderul in care aveti executabilul de Python, dar si pentru folderul Scripts.
