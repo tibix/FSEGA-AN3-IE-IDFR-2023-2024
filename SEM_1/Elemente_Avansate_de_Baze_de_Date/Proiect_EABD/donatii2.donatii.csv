@@ -1,0 +1,32 @@
+valoare,data_donatiei,donator,beneficiar,tip_donatie,
+1550.00 ,2022-10-11,1,10,numerar,"{valoare:1550, data_donatiei: new Date('2022-10-11'), donator: 1, beneficiar:10,tip_donatie:'numerar'}"
+4500.00 ,2022-10-28,2,9,alimente,"{valoare:4500, data_donatiei: new Date('2022-10-28'), donator: 2, beneficiar:9,tip_donatie:'alimente'}"
+2450.00 ,2022-12-02,3,8,numerar,"{valoare:2450, data_donatiei: new Date('2022-12-02'), donator: 3, beneficiar:8,tip_donatie:'numerar'}"
+7000.00 ,2022-12-13,4,7,haine,"{valoare:7000, data_donatiei: new Date('2022-12-13'), donator: 4, beneficiar:7,tip_donatie:'haine'}"
+25500.00 ,2022-12-18,5,6,electrocasnice,"{valoare:25500, data_donatiei: new Date('2022-12-18'), donator: 5, beneficiar:6,tip_donatie:'electrocasnice'}"
+55000.00 ,2022-12-23,6,5,imobile,"{valoare:55000, data_donatiei: new Date('2022-12-23'), donator: 6, beneficiar:5,tip_donatie:'imobile'}"
+4700.00 ,2022-10-11,7,4,electrocasnice,"{valoare:4700, data_donatiei: new Date('2022-10-11'), donator: 7, beneficiar:4,tip_donatie:'electrocasnice'}"
+15750.00 ,2022-10-28,8,3,numerar,"{valoare:15750, data_donatiei: new Date('2022-10-28'), donator: 8, beneficiar:3,tip_donatie:'numerar'}"
+8400.00 ,2022-12-02,9,2,servicii,"{valoare:8400, data_donatiei: new Date('2022-12-02'), donator: 9, beneficiar:2,tip_donatie:'servicii'}"
+1250.00 ,2022-11-07,10,1,alimente,"{valoare:1250, data_donatiei: new Date('2022-11-07'), donator: 10, beneficiar:1,tip_donatie:'alimente'}"
+,,,,,
+,,,,,
+,,,,,
+,,,,"db.donatii.insertMany([{valoare:4500, data_donatiei: new Date('2022-10-28'), donator: 2, beneficiar:9,tip_donatie:'alimente'},{valoare:2450, data_donatiei: new Date('2022-12-02'), donator: 3, beneficiar:8,tip_donatie:'numerar'},{valoare:7000, data_donatiei: new Date('2022-12-13'), donator: 4, beneficiar:7,tip_donatie:'haine'},{valoare:25500, data_donatiei: new Date('2022-12-18'), donator: 5, beneficiar:6,tip_donatie:'electrocasnice'},{valoare:55000, data_donatiei: new Date('2022-12-23'), donator: 6, beneficiar:5,tip_donatie:'imobile'},{valoare:4700, data_donatiei: new Date('2022-10-11'), donator: 7, beneficiar:4,tip_donatie:'electrocasnice'},{valoare:15750, data_donatiei: new Date('2022-10-28'), donator: 8, beneficiar:3,tip_donatie:'numerar'},{valoare:8400, data_donatiei: new Date('2022-12-02'), donator: 9, beneficiar:2,tip_donatie:'servicii'},{valoare:1250, data_donatiei: new Date('2022-11-07'), donator: 10, beneficiar:1,tip_donatie:'alimente'}])",
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,2022-10-11,,,,
+,2022-10-28,,,,
+,2022-12-02,,,,
+,2022-12-13,,,,
+,2022-12-18,,,,
+,2022-12-23,,,,
+,2022-10-11,,,,
+,2022-10-28,,,,
+,2022-12-02,,,,
+,2022-12-13,,,,
