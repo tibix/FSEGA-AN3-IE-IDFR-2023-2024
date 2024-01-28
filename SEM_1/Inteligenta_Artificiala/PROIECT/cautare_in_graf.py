@@ -1,9 +1,11 @@
 import heapq
 import sys
-from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QLineEdit, QLabel, QVBoxLayout, QWidget, QInputDialog
-import matplotlib.pyplot as plt
-from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
+
 import networkx as nx
+import matplotlib.pyplot as plt
+
+from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
+from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QVBoxLayout, QWidget, QInputDialog
 
 
 class Graph:
@@ -137,8 +139,6 @@ class GraphInterface(QMainWindow):
             nx.draw_networkx_edges(G, pos, edgelist=edges_in_path, edge_color=highlight_color, width=2)
 
         self.canvas.draw()
-
-# Clasa Graph și alte funcții necesare rămân la fel
 
 # Rularea aplicației
 app = QApplication(sys.argv)
