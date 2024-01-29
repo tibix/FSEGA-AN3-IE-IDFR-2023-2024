@@ -1,0 +1,40 @@
+Modulul I:
+ - definirea Inteligentei Artificiale: 
+  -> (D.W. Patterson, 1990) - ramura a informaticii care se coupa de studierea si realizarea SC cu elemente de inteligenta:
+      -> invata concepte si sarini noi;
+      -> analizeaza, trage concluzii si reactioneaza la mediul inconjurator;
+      -> intelege limbajul natural:
+        -> efectueaza activitati care necesita elemente de inteligenta umana.
+  
+  -> (N. Nilson, 1998) - "comportament inteligent in artificial; comportamentul inteligent - perceptie, rationament, instruire, comunicare si actiune intr-un mediu complex"
+
+  -> Luger - 1992 "ramura informaticii destinata automatizarii comportamentului inteligent" (Microsoft 1999)
+
+  -> Larouse - "Asnamblul de tehnici utilizate pentru realizarea de automate apropiate de gandirea si modul de actiune umana"
+
+  -> (Russel & Norvig - 2003) rezuma definitia data in 8 carti - intr-un tabel bidimensional:
+    -> orizontal legat de:
+        > stanga - apropiere fata de performanta umana;
+        > dreapta - apropiere de conceptul ideal de inteligenta - rationalitate;
+
+    -> vertical legat de:
+        > sus - procesul de gandire
+        > jos - comportament;
+
+Actionarea Umana - Testul Turing (Alan Turing 1950) = definita operationala a inteligentei umane - punand in scris un numar de intrebari, calculatorul raspunde ca un om. Caracteristici pentru calculatoare:
+   - prelucrarea limbajului natural;
+   - reprezentarea cunostintelor;
+   - rationare automata - memoreaza informatii pentru a raspunde la intrebari si trage concluzii noi;
+   - machine learning: extrage si exploreaza modele;
+ 
+Pentru test Turing:
+    - vedere artificiala - sa receptioneze obiecte;
+    - robotica - sa manipuleze obiecte;
+
+
+AI nu trebuie sa copieze cea umana - exemplul cu avionul, care nu copiaza zborul pasarilor sau masina de spalat, care nu copiaza slapataul manual.
+
+
+Gandire umana - abordare cognitiva -> trebuie cunoscut modul de rationare uman - 2 cai:
+  - introspectie - analiza gandirii;
+  - experiente psihologice;
