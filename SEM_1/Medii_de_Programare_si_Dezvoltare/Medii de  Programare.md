@@ -1,9 +1,13 @@
 # Curs 1 Aplicatii Web cu ASP.NET Core - Razor Pages -
 
 ## ASP.NET Core
+* ASP.NET -O unealtaMicrosoft C# pentrudezvoltareade aplicatiiweb
+* Competitori: Java Spring,PHPLaravel, Node.js Express
+* .NET Platformade dezvoltareMicrosoft din anul2001
+* ASP –Active Server Pages-paginiweb dinamice, de celemaimulteoriconectatela o bazade date
+* Core – open source, cross-platform
 * Necesitatea ca ASP.NET si Entity Framework sa ruleze pe alte SO in afara de Windows
 * Arhitectura care usureaza testarea
-* Open-source, centrat pe comunitate
 * Integrarea de framework-uri client-side – Blazor –creare de UIs utilizand C# in loc de JavaScript.
 * Suporta instalarea de versiuni diferite ale .Net Core – side by side versioning
 
@@ -16,14 +20,14 @@
 
 ## HTML si CSS
 * Cascade Style Sheets - definesc felul in care arata pagina web
-* HTML tagul pentru list item <li> definea modul in care este vizualizatcerc,disc,patrat ->CSS
+* HTML tagul pentru list item <li> definea modul in care este vizualizat,cerc,disc,patrat ->CSS
 * Se pot utiliza template-uri Bootstrap - o colectie de conventii CSS si HTML care pot fi adaptate facil
 * www.getbootstrap.com - documentatie si template-uri
 
 ## JavaScript si TypeScript
 * Putem modifica dynamic elemente client-side
 * ECMAScript – standard care defineste functionalitatile curente si vitoare pentru JavaScript.
-* Implementarea Microsoft pentru JavaScript se numeste JScript. 
+* Implementarea Microsoft pentru JavaScript se numeste JScript.
 * TypeScript similar cu JavaScript. Sintaxa TypeScript se bazeaza pe JavaScript, dar aduce noi functionalitati (ex. Cod puternic tipizat, adnotari)
 * Documentatie la : www.typescriptlang.org.
 
@@ -53,18 +57,18 @@ In directorul wwwroot regasim continut de tip client-side CSS, JavaScript, imagi
 
 Directorul Pages contine pagini Razor si fisiere suport. Fiecare pagina este o pereche a urmatoarelor fisiere:
 
-* 	Un fisier .cshtml care contine markup Razor, HTML si cod C#.
-* 	Un fisier .cshtml.cs care contine cod C# pentru a gestiona evenimentele la nivel de pagina.
+* 	Un fisier _.cshtml_ care contine markup Razor, HTML si cod C#.
+* 	Un fisier _.cshtml.cs_ care contine cod C# pentru a gestiona evenimentele la nivel de pagina.
 
 Fisierele suport au nume care incepe cu “_”. Ex fisierul “_Layout.cshtml” configureaza elemente UI comune tuturor. Ex. acest fisier seteaza
-navigation menu in partea de sus a paginii si informatia despre copyright in 
+navigation menu in partea de sus a paginii si informatia despre copyright in
 partea de jos a paginii.
 
 ## Pagini Layout
 
 * Majoritatea site-urilor prezintă același conținut pe fiecare pagină sau într-un număr mare de pagini (ex. antet, subsol, bara meniu de navigare, scripturile, css etc.)
 * Adăugarea aceluiași continut încalcă principiul DRY (Don’t Repeat Yourself) => trebuie să modificați aspectul antetului, trebuie să editați fiecare pagină
-* Pagina Layout - acționează ca un șablon pentru toate paginile care fac referire la aceasta. 
+* Pagina Layout - acționează ca un șablon pentru toate paginile care fac referire la aceasta.
 * Paginile care fac referire la pagina de Layout se numesc pagini de conținut. Paginile de conținut nu sunt pagini web complete. Acestea conțin doar conținutul care variază de la o pagină la alta.
 
 ```
@@ -96,7 +100,7 @@ partea de jos a paginii.
 
 * Razor este o sintaxa de tip markup pentru a incorpora cod de tip server-side in pagini web
 * Sintaxa Razor consta in Razor markup, C#, si HTML
-* Limbajul Razor implicit este HTML. Interpretarea HTML din markup-ul Razor este similara cu interpretarea HTML dintr-un fisier HTML. 
+* Limbajul Razor implicit este HTML. Interpretarea HTML din markup-ul Razor este similara cu interpretarea HTML dintr-un fisier HTML.
 * Pentru a trece la limbaj C# - simbolul @ - Razor evalueaza expresiile C# si le randeaza in output HTML
 * Cand simbolul @ este urmat de un cuvant cheie Razor – tranzitia se face la markup specific Razor
 
@@ -107,7 +111,7 @@ partea de jos a paginii.
 
 ```
 <p>@DateTime.Now</p>
-<p>Last week: @DateTime.Now - 
+<p>Last week: @DateTime.Now -
 TimeSpan.FromDays(7)</p>
 ```
 Se afiseaza
