@@ -1,0 +1,210 @@
+{
+    "questions": [
+        {
+            "question": "Luati in considerare rezultatele unui experiment medical care urmareste sa prezica daca cineva va dezvolta miopie pe baza unor masuratori fizice si a ereditatii. In acest caz, setul de date de intrare consta din caracteristicile medicale ale persoanei, iar variabila tinta este binara: 1 pentru cei care sunt susceptibili de a dezvolta miopie si 0 pentru cei care nu sunt. Acest lucru poate fi cel mai bine clasificat ca ...",
+            "options": [
+                {"a": "Nici una din variante"},
+                {"b": "Arborele de decizie"},
+                {"c": "Regresie"},
+                {"d": "Clustering"}
+            ],
+            "answer": "b"
+        },
+        {
+            "question": "Ce determina regulile conditie-actiune intr-un agent AI?",
+            "options": [
+                {"a": "Modul in care un agent percepe mediul sau"},
+                {"b": "Capacitatile fizice ale agentului"},
+                {"c": "Mecanismul de invatare al agentului"},
+                {"d": "Metodele de comunicarea ale agentului"},
+                {"e": "Procesul de luare a deciziilor al unui agent"}
+            ],
+            "answer": "a"
+        },
+        {
+            "question": "Ce tip de date retine variabila declarata astfel: n = 100 % 9?",
+            "options": [
+                {"a": "int"},
+                {"b": "flaot"},
+                {"c": "str"},
+                {"d": "complex"}
+            ],
+            "answer": "a"
+        },
+        {
+            "question": "Ce rol au actuatorii intr-un agent AI?",
+            "options": [
+                {"a": "Sa stocheze date"},
+                {"b": "Sa proceseze informatii"},
+                {"c": "Sa execute actiuni in mediu"},
+                {"d": "Sa comunice cu alti agenti"},
+                {"e": "Sa colecteza date"}
+            ],
+            "answer": "c"
+        },
+        {
+            "question": "Care este avantajul folosirii programarii dinamice in contextul problemelor de cautare?",
+            "options": [
+                {"a": "Convergenta mai rapida prin impartirea in subprobleme a calcului de cost"},
+                {"b": "Convergenta mai rapida prin utilizarea retelelor neuronale"},
+                {"c": "Acuratetea mai ridicata prin incorporarea mai multor date"},
+                {"d": "Are un format mai flexibil prin folosirea algoritmului gradient descent"}
+            ],
+            "answer": "a"
+        },
+        {
+            "question": "Ce determina un agent AI bazat pe obiective sa aleaga anumite actiuni?",
+            "options": [
+                {"a": "Obiectivele specificate"},
+                {"b": "Starea curenta a mediului"},
+                {"c": "Comenzi externe"},
+                {"d": "Experienta anterioara"},
+                {"e": "Reactiile reflexive"}
+            ],
+            "answer": "a"
+        },
+        {
+            "question": "Cum percepe un agent AI starea curenta a mediului?",
+            "options": [
+                {"a": "Prin actiuni anterioare"},
+                {"b": "Prin stocare de date"},
+                {"c": "Prin reguli prestabilite"},
+                {"d": "Prin senzori"},
+                {"e": "Prin comunicare cu alti agenti"}
+            ],
+            "answer": "d"
+        },
+        {
+            "question": "Alegeti modalitatea corecta de a accesa valoarea 20 din urmatorul tuplu: aTuple = (\"Orage\", [10, 20,30], (5,15,25))",
+            "options": [
+                {"a": "aTuple[1:2](1)"},
+                {"b": "aTuple[1:2][1]"},
+                {"c": "aTuple[1][1]"},
+                {"d": "aTuple[1:2][1]"}
+            ],
+            "answer": "c"
+        },
+        {
+            "question": "Ce fel de agent AI reactioneaza direct la stimuli externi fara a tine cont de starea anterioara",
+            "options": [
+                {"a": "Agent reflexiv"},
+                {"b": "Agent bazat pe obiective"},
+                {"c": "Agent bazat pe utilitate"},
+                {"d": "Agent de invatare"},
+                {"e": "Agent cu stare"}
+            ],
+            "answer": "a"
+        },
+        {
+            "question": "Care este principalul diferenta dintre un sistem Multi-Agent si un sistem distribuit",
+            "options": [
+                {"a": "Un sistem Multi-Agent este format din mai multi agenti inteligeti care actioneaza independent, in timp ce un sistem distribuit este format din mai multi agenti inteligenti care actioneaza in coordonare"},
+                {"b": "Un sistem Multi-Agent este format din mai multi agenti inteligenti care interactioneaza intre ei, in timp ce un sistem distribuit este format din mai multe masini care lucreaza impreuna pentru a efectua o sarcina"},
+                {"c": "Un sistem Multi-Agent este format din mai multe masini care lucreaza impreuna pentru a efectua o sarcina, in timp ce un sistem distribuit este format din mai multi agenti care interactioneaza intre ei"},
+                {"d": "Un sistem Multi-Agent este format din mai multe masini care actioneaza independent, in timp ce un sistem distribuit este format din mai multi agenti inteligenti care actioneaza in coordonare"}
+            ],
+            "answer": "b"
+        },
+        {
+            "question": "Pentru a citi doua caractere dintr-un obiect fisier, folosim:",
+            "options": [
+                {"a": "infile.readline()"},
+                {"b": "infile.read()"},
+                {"c": "infile.read(2)"},
+                {"d": "infile.readlines()"}
+            ],
+            "answer": "c"
+        },
+        {
+            "question": "Ce este returnat de math.ceil(3.4)?",
+            "options": [
+                {"a": "5"},
+                {"b": "4"},
+                {"c": "4.0"},
+                {"d": "3"}
+            ],
+            "answer": "b"
+        },
+        {
+            "question": "Va rugam sa selectati toate modalitatile corecte de a goli urmatorul dictionar: student = {\"name\":\"Emma\", \"class\":9, \"marks\": 75}",
+            "options": [
+                {"a": "del student[0:2]"},
+                {"b": "del student"},
+                {"c": "toate variantele"},
+                {"d": "student.clear()"}
+            ],
+            "answer": "d"
+        },
+        {
+            "question": "Ce este Testul Turing",
+            "options": [
+                {"a": "Un test pentru autonomia unui AI"},
+                {"b": "Un test pentru masurarea vitezei unui AI"},
+                {"c": "Un test pentru masurarea inteligentei emotionale a unui AI"},
+                {"d": "Un test pentru capacitatea unui AI de a rezolva puzzle-uri"},
+                {"e": "Un test pentru a evalua daca un AI poate fi deosebit de un om prin conversatie"}
+            ],
+            "answer": "e"
+        },
+        {
+            "question": "In conditiile in care variabila x retine 3 si y retine 5, de cate ori trebuie executata atribuirea: x = 2*x-y, astfel incat x sa contine la final -27",
+            "options": [
+                {"a": "de trei ori"},
+                {"b": "de patru ori"},
+                {"c": "de doua ori"},
+                {"d": "o data"}
+            ],
+            "answer": "b"
+        },
+        {
+            "question": "Care este tipul urmatoarei variabile: aTuple = (\"Orange\"); print(type(aTuple))",
+            "options":[
+                {"a": "tuple"},
+                {"b": "list"},
+                {"c": "array"},
+                {"d": "str"}
+            ],
+            "answer": "d"
+        },
+        {
+            "question": "Pentru a citi doua caractere dintr-un obiect fisier, folosim: ",
+            "options": [
+                {"a": "infile.readlines()"},
+                {"b": "infile.readline()"},
+                {"c": "infile.read()"},
+                {"d": "infile.read(2)"}
+            ],
+            "answer": "d"
+        },
+        {
+            "question": "Variabilele sunt create prin",
+            "options": [
+                {"a": "Folosind cuvantul rezervat - var"},
+                {"b": "Trebuie precizat tipul acestora"},
+                {"c": "Operatia de atribuire"},
+                {"d": "Nici una din variante"}
+            ],
+            "answer": "c"
+        },
+        {
+            "question": "Care din urmatoarele descrie cel mai bine conceptul de inteligenta artificiala generala?",
+            "options": [
+                {"a": "O masina care poate sa execute doar sarcini legate de perceptie sau control"},
+                {"b": "O masina care poate sa execute doar sarcini specifice, programate in prealabil"},
+                {"c": "O masina care poate sa execute doar sarcini legate de un domeniu sau industrie specifica"},
+                {"d": "O masina care poate sa execute orice sarcina intelectuala pe care o poate face un om"}
+            ],
+            "answer": "d"
+        },
+        {
+            "question": "Care din urmatoarele este un risc potential cu dezvoltarea inteligentei generale?",
+            "options": [
+                {"a": "Dislocarea fortei de munca pentru anumite industrii"},
+                {"b": "Capacitate crescuta de comunicare cu alte sisteme de inteligenta artificiala"},
+                {"c": "Eficienta crescuta in finalizarea sarcinilor"},
+                {"d": "Dificultatea in controlarea proceselor da luarea a deciziilor ale masinii"}
+            ],
+            "answer": "d"
+        }
+    ]
+}
