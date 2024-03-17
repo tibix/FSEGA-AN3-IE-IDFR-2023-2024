@@ -128,7 +128,7 @@ class GraphInterface(QMainWindow):
         node_color = "#DDB5F2"
         edge_color = "#B4E8E0"
         text_color = "#25273A"
-        highlight_color = "#CBCDFF"
+        highlight_color = "#990F02"
 
         nx.draw(G, pos, with_labels=True, node_color=node_color, font_color=text_color, node_size=2000, edge_color=edge_color)
         edge_labels = nx.get_edge_attributes(G, 'weight')
