@@ -104,6 +104,7 @@ matrix(1:6,nrow=2, byrow = TRUE)
 matrix(1:3,nrow=2, ncol=3, byrow = TRUE)
 
 cbind(1:3, 1:3)
+
 rbind(1:3, 1:3)
 
 m = rbind(matrix(1:6,nrow=2, byrow = TRUE), 1:3)
@@ -309,3 +310,4 @@ tib %>%
   select(-Fumator) %>%
   group_by(Varsta) %>%
   summarize(medie=mean(Inaltime))
+
