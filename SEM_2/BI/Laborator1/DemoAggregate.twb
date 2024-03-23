@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0208.0337                               -->
+<workbook original-version='18.1' source-build='2024.1.0 (20241.24.0208.0337)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='DemoAggregate Extract' inline='true' name='federated.0xho7y408007sk1ecfq5w1r90ktz' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='DemoAggregate' name='hyper.1gm4uod1xhad2e17sujyo175ln3f'>
+            <connection authentication='auth-none' author-locale='en_US' class='hyper' dbname='/Users/teebee/Desktop/DemoAggregate.hyper' default-settings='yes' server='' sslmode='' username='tableau_internal_user' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='hyper.1gm4uod1xhad2e17sujyo175ln3f' name='Extract' table='[Extract].[Extract]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='hyper.1gm4uod1xhad2e17sujyo175ln3f' name='Extract' table='[Extract].[Extract]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gender]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>gender</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_DA49A2EF4F9A496BAA5A15E9865B177F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MonthlyCharges</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MonthlyCharges]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>MonthlyCharges</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_DA49A2EF4F9A496BAA5A15E9865B177F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Monthly Charges' datatype='real' name='[MonthlyCharges]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Extract' datatype='table' name='[__tableau_internal_object_id__].[Extract (Extract.Extract)_DA49A2EF4F9A496BAA5A15E9865B177F]' role='measure' type='quantitative' />
+      <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+      <column-instance column='[__tableau_internal_object_id__].[Extract (Extract.Extract)_DA49A2EF4F9A496BAA5A15E9865B177F]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Extract (Extract.Extract)_DA49A2EF4F9A496BAA5A15E9865B177F:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[MonthlyCharges]' derivation='Avg' name='[avg:MonthlyCharges:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[MonthlyCharges]' derivation='Sum' name='[sum:MonthlyCharges:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0xho7y408007sk1ecfq5w1r90ktz].[__tableau_internal_object_id__].[cnt:Extract (Extract.Extract)_DA49A2EF4F9A496BAA5A15E9865B177F:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0xho7y408007sk1ecfq5w1r90ktz].[avg:MonthlyCharges:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0xho7y408007sk1ecfq5w1r90ktz].[sum:MonthlyCharges:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Extract' id='Extract (Extract.Extract)_DA49A2EF4F9A496BAA5A15E9865B177F'>
+            <properties context=''>
+              <relation connection='hyper.1gm4uod1xhad2e17sujyo175ln3f' name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='DemoAggregate Extract' name='federated.0xho7y408007sk1ecfq5w1r90ktz' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xho7y408007sk1ecfq5w1r90ktz'>
+            <column caption='Monthly Charges' datatype='real' name='[MonthlyCharges]' role='measure' type='quantitative' />
+            <column-instance column='[MonthlyCharges]' derivation='Avg' name='[avg:MonthlyCharges:qk]' pivot='key' type='quantitative' />
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0xho7y408007sk1ecfq5w1r90ktz].[none:gender:nk]</rows>
+        <cols>[federated.0xho7y408007sk1ecfq5w1r90ktz].[avg:MonthlyCharges:qk]</cols>
+      </table>
+      <simple-id uuid='{06A79F23-A620-4DBA-B0B9-EEF5A02DDECF}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0xho7y408007sk1ecfq5w1r90ktz].[:Measure Names]</field>
+            <field>[federated.0xho7y408007sk1ecfq5w1r90ktz].[none:gender:nk]</field>
+            <field>[federated.0xho7y408007sk1ecfq5w1r90ktz].[sum:MonthlyCharges:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{BFABDEE5-F254-4426-8C14-77AA6D251B22}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='238' name='Sheet 1' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAADuCAYAAAAwTtAhAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAASG0lEQVR4nO3dWWxUdR+H8e/pItAVWgozQEFKgRLZZI9YQMANqNwgQpRoiFyYkBhDoubV
+      K/LGPZiIEBITQ2LeBEQJEsJqAcFCacs2DJFCoNKVtsxYpnRapO28F6TF2oWWdjqd+T+fG6Xn
+      zPF3os7Ts8wZy+fz+QQAME5YoAcAAAQGAQAAQxEAADAUAQAAQxEAADAUAQAAQxEAADAUAQAA
+      QxEAADAUAQAAQxEAADAUAQAAQxEAADAUAQAAQxEAADAUAQAAQxEAADAUAQAAQxEAADAUAQAA
+      QxEAADAUAQAAQxEAADAUAQAAQxEAADAUAQAAQxEAADAUAQAAQxEAADAUAQAAQxEAADAUAQAA
+      QxEAADAUAQAAQxEAADAUAQAAQxEAADAUAQAAQxEAADAUAQAAQxEAADAUAQAAQxEAADAUAQAA
+      QxEAADAUAQAAQxEAADAUAQAAQxEAADAUAQAAQxEAADAUAQAAQxEAADAUAQAAQxEAADAUAUBQ
+      83q9gR4BhqmurlZ1dXWgx+gRBAAADEUAAMBQBAAADEUAAMBQBAAADBUR6AGA7lr+nx2BHgEI
+      ShwBAIChCAAAGIoAAIChCAAAGIoAoEcVFRXp5s2bgR4DQCdwF5CflJaWqry8/JHrTZkyRWFh
+      odPh77//XrW1tfrss88CPQqARyAAfnLq1CkdOXLkket988036tevXy9MBAAtEQA/W7p0qWw2
+      W7vLIyMje3EaAHiIAPjZhAkTNHbs2ECPAQCthM7J5xDl8/kCPYLfhPK+AcGAI4A+6Nq1azp6
+      9KgKCgrk8Xg0YsQIpaWlKSMjo9Upoz///FNZWVlKT0+XZVnKysrSzZs3VVpaqri4OM2YMUNL
+      ly5VeHi4cnNz5XQ6m7drt9uVkZGhp556qtUM9fX1unTpkhwOh1wul6qqqhQeHi6bzabp06dr
+      xowZft83AP5FAPqYzMxM/fTTT4qIiFBqaqpSU1NVWFioQ4cOKT8/X+vXr1dsbGzz+uXl5Tpx
+      4oTy8/NVUVEhn8+nhIQEJSYmqqSkRPv371dpaalu376t4uJihYWFafjw4XriiSdUUFCgb7/9
+      Vh999JFGjBjRYo7NmzfrypUrkqSYmBglJSXJ6/XqwoULOnfunM6fP69169b5dd8A+BcB6EOK
+      ioq0a9cuJSYmav369bLb7ZIenCrZuXOnjh07pn379mn16tWtXutyubRo0SItXLhQiYmJkqQb
+      N27o888/14ULF5SYmKi33npL06ZNU79+/eTz+bRr1y5lZmbq3LlzrQIQHx+vZcuWae7cuUpI
+      SGj+eVlZmbZu3aq8vDzNnj1bkydP9vu+AfAPAuBnu3fvVkxMTJvLkpKStHLlSklSY2OjPvnk
+      E6WkpOj9999vsZ5lWVq1apWSkpL0448/avz48Zo2bVqLddauXavp06e3+FlKSoomTJigK1eu
+      6JNPPmm1zaVLlyozM1N//fVXq9nWrl3b5sx2u10bNmzQBx98oN9//71TAejuvgHwDwLgZwUF
+      Be0uGzlyZPPf3759W42NjRo1alS76w8fPlzSg9/2e0N9fb0uX76soqIiVVVVqaampnmZZVlq
+      aGjo1Hb64r4BIAB+t2HDhk7dBtr0xnfs2DHl5eW1uU7TG67b7e65Adtx9epVbdu2TTU1NbIs
+      SzExMS2OZLpyB09f2zcADxCAPiIqKkqSZLPZlJqa2uG6o0eP9ussFRUV2rJli+rr67Vy5UrN
+      mTNH0dHRLdZ55513Or29vrRvAB4iAH3E4MGDJT04FfLGG28EdBaHw6G6ujq9+eabeuaZZ7q9
+      vb60bwAe4oNgfUR0dLTi4uLkdDpVXV0d0FlKSkoktbxG0R19ad8APEQA+pCXXnpJdXV12r59
+      u7xeb6vlHo9HO3bsUFZWll/naLrts63z9cXFxdq0aZMaGxu7tM2+sm8AHuIUUB8yf/58nT59
+      Wk6nUxs3btTMmTM1dOhQ3b17V8XFxXI4HLp3757fT6NMnTpV+/fv16+//iqXy6VJkybpzp07
+      ys/Pl9PpfKwPa/WVfQPwEAHwk/Dw8BZ/7YyIiAh9+OGH2rt3r44fP67Dhw83L7MsSykpKVqy
+      ZIkmTpzY7j/v38LCwtpdFh4eLsuyWv08OTlZa9as0c6dO5WTk6OcnBxJDy7mLliwQMuXL9eG
+      DRva3WZb/7zu7BsA/7B8PJGrT/L5fHK73aqsrFRsbKyGDBnS68/K8Xq9KiwslMfjUXJysmw2
+      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
+      7ygcAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
